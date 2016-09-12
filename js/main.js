@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('#CA').click(function(){
 		$.ajaxSetup({
 			headers: {
-				'X-APIKEY': 'b64f4d8734b94fd8ad8644b0ecba03fb'
+				'X-APIKEY': '[API Key]'
 			}
 		});
 		$.getJSON('https://congress.api.sunlightfoundation.com/legislators?fields=chamber,party,state,gender,birthday,last_name', function (data) {
